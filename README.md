@@ -1,17 +1,15 @@
 # JDSRSynth
 
-Demonstrates various ways, excluding use of global variables, to pass information between Components in a JUCE based project. 
-The information sending Component is a simple ListBox implementation and the other Component, the MainComponent is interested in knowing 
-which row of the listbox was selected and if a mouse double click was involved.
+This project is a synthesiser made with the JUCE framework. It is a school project. All request are welcome.
 
-Techniques included :
+Prerequest :
 
-- Custom Broadcaster/Listener
+- Projucer program (https://juce.com/get-juce)
 
-- std::function
+Run the program :
 
-- JUCE Value and Value::Listener
+- open the jucer file and export the project on your IDE (there is the xcodeproject linked too)
 
-- Making the listbox a ChangeBroadcaster and using a dynamic_cast to get access into the listbox variables
+Credits : 
 
-- Passing a reference of the MainComponent into the listbox so it can call a method directly
+A big thanks to "theaudioprogrammer" community for their tutos and help
